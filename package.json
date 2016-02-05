@@ -1,0 +1,19 @@
+{
+  "name": "outpost",
+  "subdomain": "onereason-outpost",
+  "domains": [
+    "outpost.onereason.eu"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.1-2",
+  "engines": {
+    "node": "4.2.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "pubnub": "^3.7.12"
+  }
+}
